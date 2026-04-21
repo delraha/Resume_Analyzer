@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://resume-analyzer-ja44.onrender.com';
 
 export const api = {
   analyzeResume: async (resumeText, jobDescription) => {
